@@ -2,7 +2,7 @@
 
 This project was built using the following technologies:
 
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github,windows,powershell&perline=13">
+<img src="https://skillicons.dev/icons?i=github,windows,powershell&perline=13">
 
 ##  🏁 Installation and Setup
 1. **Clone the repository**:
