@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Impero Killer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<!--<nav>-->
+    <!--
+    <img src="assets/logo.png" id="logo" alt="logo">
+    <a href="#container-1" class="nav-header">Home</a>
+    <a href="#container-2" class="nav-header">Download</a>
+    <a href="" class="nav-header">About</a>
+    <a href="" class="nav-header">Releases</a>
+    <a href="" class="nav-header">Contact</a>
+    <a href="" class="nav-header">Help</a>
+    <i class="fas fa-bars"></i>
+    -->
+<!--</nav>-->
+<div class="container container-gradient" id="container-1">
+    <h2>Impero Killer</h2>
+    <!--
+    <p class="subtitle">Prevents the Impero Classroom management software from working</p>
+    <p class="subtitle">Click below to Download</p>
+    -->
+    <button class="button-black" onclick="window.location.href='#container-2'">Get</button>
+</div>
+<div class="container container-gradient">
+<div class="container" id="container-2">
+    <h2>Download</h2>
+    <p class="subtitle">Impero Killer v1 German | 47.0KB</p>
+    <button class="button-white" onclick="window.location.href='assets/Impero Killer v1.exe'"><i class="fas fa-download"></i>Download</button>
+    <span id="file"></span>
+</div>
+</div>
+<footer>
+    <p id="footer">&copy; <span id="year"></span>, Janis.<a href="https://www.github.com/yhkq1" aria-label="GitHub"><i class="fab fa-github"></i></a></p> <!--<a href="">License & legal notice</a></p>-->
+</footer>
+<script>
+    const year = document.getElementById("year");
+    const refresh = () => {
+        const date = new Date();
+        year.innerHTML = `
+    <span>
+    ${date.getFullYear()}
+    </span>
+    `;
+    }
+    window.onload = refresh;
+</script>
+</body>
+</html>
