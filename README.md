@@ -10,7 +10,7 @@ This project is intended for **educational and research purposes only**. The use
 ## 💻 Technologies Used
 This project was built using the following technologies:
 
-<img src="https://skillicons.dev/icons?i=github,windows,powershell,.netc&perline=13">
+<img src="https://skillicons.dev/icons?i=github,windows,powershell,net&perline=13">
 
 ## 🏁 Installation & Usage
 1. **Go to [ik3.vercel.app](https://ik3.vercel.app/)**
