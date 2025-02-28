@@ -1,3 +1,8 @@
+# Why do i need it?
+This project is meant for people who are getting monitored by [Imperos'](https://www.imperosoftware.com/impero-connect/) Classroom Management.
+My .exe file prevents the Software to start which leads to teachers / tutors not seeing the screen.
+When opened, the App will stay in the Background and can be closed using the icon in the System-tray. May have some delay
+
 ## 💻 Technologies Used
 
 This project was built using the following technologies:
@@ -5,19 +10,13 @@ This project was built using the following technologies:
 <img src="https://skillicons.dev/icons?i=github,windows,powershell&perline=13">
 
 ##  🏁 Installation and Setup
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yhkq1/yhkq1.github.io.git
-   ```
+1. **Head to https://ik3.vercel.app/**:
 
-2. **Navigate to the project folder**:
-   ```bash
-   cd yhkq1.github.io
-   ```
+2. **Download**:
 
-3. **Open the app**:
-   - Open the `index.html` file in your preferred web browser.
-   - Alternatively, you can deploy the project to a server to take full advantage of all the features.
+3. **Unzip the archive**:
+   Notes
+   - Some antivirus programs may detect the .exe as a virus, but it's a false positive. Check the raw file in `/assets`
 
 ## 🛠️ Developer
 
