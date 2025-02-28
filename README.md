@@ -1,30 +1,33 @@
-# What is this?
-This project is meant for people who are getting monitored by [Imperos'](https://www.imperosoftware.com/impero-connect/) Classroom Management.
-My .exe file prevents the Software to start which leads to teachers / tutors not seeing the screen.
-When opened, the App will stay in the Background and can be closed using the icon in the System-tray. May have some delay
+# Impero Killer
+
+**Impero Killer** is an experimental tool designed for research and analysis of classroom management software behavior. The application prevents certain monitoring tools from launching, providing insight into how such software operates.
+
+## ⚠️ Disclaimer
+This project is intended for **educational and research purposes only**. The use of this software in environments where monitoring is required or enforced may violate institutional policies. The author is not responsible for any misuse of this tool.
+
+---
 
 ## 💻 Technologies Used
-
 This project was built using the following technologies:
 
 <img src="https://skillicons.dev/icons?i=github,windows,powershell&perline=13">
 
-##  🏁 Installation and Setup
-1. **Head to https://ik3.vercel.app/**:
+## 🏁 Installation & Usage
+1. **Go to [ik3.vercel.app](https://ik3.vercel.app/)**
+2. **Download the latest release**
+3. **Unzip the archive** and run the `.exe` file
 
-2. **Download**:
+**Note:** Some antivirus programs may flag the `.exe` as a false positive due to its nature. You can inspect the raw file in `/assets`.
 
-3. **Unzip the archive**:
-   Notes
-   - Some antivirus programs may detect the .exe as a virus, but it's a false positive. Check the raw file in `/assets`
+---
 
 ## 🛠️ Developer
+This project was created by **[Janis (@yhkq1)](https://github.com/yhkq1)**.  
+Follow me on GitHub for more projects!
 
-This project was created by **[Janis(@yhkq1)](https://github.com/yhkq1)**.  
-Follow me on GitHub for more exciting projects!
+---
 
 ## 🤝 Contributing
-
 Contributions are welcome! To contribute:
 
 1. Fork the repository.
@@ -33,13 +36,13 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-For major changes, please open an issue first to discuss what you'd like to change or improve.
+For major changes, please open an issue first to discuss them.
+
+---
 
 ## 📜 License
 
-[![Creative Commons License](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
-[![CC BY](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
-[![CC NC](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
-[![CC SA](https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
+[![Creative Commons License](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)  
+This project is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
 
-[**yhkq1.github.io**](https://github.com/yhkq1/yhkq1.github.io) by [**Janis | @yhkq1**](https://github.com/yhkq1) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
+---
