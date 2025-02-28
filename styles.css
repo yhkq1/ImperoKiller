@@ -131,3 +131,8 @@ a:hover{
 .nav-header:hover{
     box-shadow: 0 0 20px  grey;
 }
+
+img{
+width: 40%
+height:40%
+}
