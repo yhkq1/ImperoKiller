@@ -1,4 +1,4 @@
-# Why do i need it?
+# What is this?
 This project is meant for people who are getting monitored by [Imperos'](https://www.imperosoftware.com/impero-connect/) Classroom Management.
 My .exe file prevents the Software to start which leads to teachers / tutors not seeing the screen.
 When opened, the App will stay in the Background and can be closed using the icon in the System-tray. May have some delay
