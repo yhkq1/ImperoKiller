@@ -71,12 +71,11 @@ p{
   margin-left: auto;
   margin-right: auto;
   line-height: 2;
-  word-wrap: break-word;
   text-align: center;
 }
 
-#nowrap{
-    word-wrap: none;
+#phome{
+    word-wrap: break-word;
 }
 
 button{
