@@ -126,7 +126,7 @@ a:hover{
 #container-1-5{
 height: 100vh;
 background: linear-gradient(to right, #ff7e5f, #feb47b, #ff9a8b, #f7a8b8, #d1c4e9, #a8c0ff);
-    background-size: 400% 400%;
+    background-size: 300% 300%;
     animation: gradientAnimation 20s ease-in-out infinite; 
 }
 
