@@ -9,7 +9,7 @@
     height: 100vh;
     background: linear-gradient(to right, black, black, black, black, black, black);
     background-size: 400% 400%;
-    animation: gradientAnimation 20s ease-in-out infinite;  
+    animation: gradientAnimation 20s ease-in-out infinite; !important
 }
 } 
 
