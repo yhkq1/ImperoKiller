@@ -10,7 +10,7 @@ $Form.Opacity = 0
 $searchPath = "C:\"
 $exeName = "Impero Killer.exe"
 $exePath = "" 
-$exeFile = Get-ChildItem -Path $searchPath -Recurse -Filter $exeName -ErrorAction SilentlyContinue | Select-Object -First 1 # Wenn eine .exe-Datei gefunden wurde 
+$exeFile = Get-ChildItem -Path $searchPath -Recurse -Filter $exeName -ErrorAction SilentlyContinue | Select-Object -First 1
 if ($exeFile) { 
 $exePath = $exeFile.FullName 
 try { 
