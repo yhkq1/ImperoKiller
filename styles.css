@@ -30,9 +30,7 @@ body{
 
 footer{
     background-color: black;
-    padding: calc(3.25 * 1em)
-    margin-top: 150px;
-}
+    padding: calc(3.25 * 1em)}
 
 nav{
     display: flex;
