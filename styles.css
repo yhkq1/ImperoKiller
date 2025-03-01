@@ -62,6 +62,12 @@ p{
     font-family: sans-serif;
     font-size: 1.563rem;
     letter-spacing: 1px;
+      width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  word-wrap: break-word;
+  text-align: center;
 }
 .subtitle{
     color: cornsilk;
