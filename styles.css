@@ -6,6 +6,7 @@
 
 @media (max-width: 768px) {
 #container-1-5 {
+background: none !important;
 background-color: black !important;
 } 
 }
