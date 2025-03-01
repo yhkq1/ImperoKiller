@@ -9,6 +9,9 @@
 background: none !important;
 background-color: black !important;
 } 
+    .phome{
+        display: none !important;
+    }
 }
 
 html{
