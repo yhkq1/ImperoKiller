@@ -4,9 +4,12 @@
 
 @keyframes gradientAnimation { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
 #container-1-5 {
-    background: black;
+    height: 100vh;
+    background: linear-gradient(to right, black, black, black, black, black, black);
+    background-size: 400% 400%;
+    animation: gradientAnimation 20s ease-in-out infinite;  
 }
 } 
 
