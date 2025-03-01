@@ -1,4 +1,4 @@
-![https://i.ibb.co/CsmWjSDw/IMG-20250301-WA0000.jpg]
+!(https://i.ibb.co/CsmWjSDw/IMG-20250301-WA0000.jpg)
 # Impero Killer
 
 **Impero Killer** is an experimental tool designed for research and analysis of classroom management software behavior. The application prevents certain monitoring tools from launching, providing insight into how such software operates.
