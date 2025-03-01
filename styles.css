@@ -75,6 +75,10 @@ p{
   text-align: center;
 }
 
+#nowrap{
+    word-wrap: none;
+}
+
 button{
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*Color, border, background-color*/
