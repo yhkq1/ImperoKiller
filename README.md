@@ -1,50 +1,29 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/yhkq1/ImperoKiller/total?style=for-the-badge)](https://github.com/yhkq1/ImperoKiller/releases)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Sans+Serif&weight=900&size=50&letterSpacing=5&duration=1000&pause=1000&color=F7F7F7&center=true&vCenter=true&repeat=false&random=true&width=435&lines=Impero+Killer)](https://git.io/typing-svg)<img src="https://i.ibb.co/CsmWjSDw/IMG-20250301-WA0000.jpg" style="width: 50px; height: 50px">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Sans+Serif&weight=900&size=50&letterSpacing=5&duration=1000&pause=1000&color=F7F7F7&center=true&vCenter=true&repeat=false&random=true&width=435&lines=Impero+Killer)](https://git.io/typing-svg)
 
-**Impero Killer** is an experimental tool designed for research and analysis of classroom management software behavior. The application prevents certain monitoring tools from launching, providing insight into how such software operates.
+**Impero Killer** is an experimental tool designed for disabling classroom management software behavior. The application prevents certain monitoring tools from launching.
 
 #
 
 > [!Important]
 > Requires **being able to close backdropclient** using the Task manager.
 
-## ⚠️ Disclaimer
-This project is intended for **educational and research purposes only**. The use of this software in environments where monitoring is required or enforced may violate institutional policies. The author is not responsible for any misuse of this tool.
 
----
-
-## 💻 Technologies Used
-This project was built using the following technologies:
-
-<img src="https://skillicons.dev/icons?i=github,windows,powershell,net&perline=13">
-
-## 🏁 Installation & Usage
+## Installation
 1. **Go to [ik3.vercel.app](https://ik3.vercel.app/)**
 2. **Download the latest release**
 3. **Unzip the archive** and run the `.exe` file
 
-**Note:** Some antivirus programs may flag the `.exe` as a false positive due to its nature. You can inspect the raw file in `/assets`.
+**Note:** Some antivirus programs may flag the `.exe` as a false positive due to its nature. You can inspect the raw files in `/src`.
 
 ---
-
-## 🛠️ Developer
-This project was created by **[Janis (@yhkq1)](https://github.com/yhkq1)**.  
-Follow me on GitHub for more projects!
+## ⚠️ Disclaimer
+This project is intended for **educational and research purposes only**. The use of this software in environments where monitoring is required or enforced may violate institutional policies. The author is not responsible for any misuse of this tool.
 
 ---
+This project was built using the following technologies:
 
-## 🤝 Contributing
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
-For major changes, please open an issue first to discuss them.
-
----
+<img src="https://skillicons.dev/icons?i=github,windows,powershell,net&perline=13">
 
 ## 📜 License
 
