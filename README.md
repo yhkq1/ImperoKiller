@@ -1,5 +1,5 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/yhkq1/ImperoKiller/total?style=for-the-badge)](https://github.com/yhkq1/ImperoKiller/releases)
-# Impero Killer <img src="https://i.ibb.co/CsmWjSDw/IMG-20250301-WA0000.jpg" style="width: 50px; height: 50px">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Impero+Killer)](https://git.io/typing-svg)<img src="https://i.ibb.co/CsmWjSDw/IMG-20250301-WA0000.jpg" style="width: 50px; height: 50px">
 
 **Impero Killer** is an experimental tool designed for research and analysis of classroom management software behavior. The application prevents certain monitoring tools from launching, providing insight into how such software operates.
 
