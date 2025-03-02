@@ -2,6 +2,11 @@
 
 **Impero Killer** is an experimental tool designed for research and analysis of classroom management software behavior. The application prevents certain monitoring tools from launching, providing insight into how such software operates.
 
+#
+
+> [!Important]
+> Requires **being able to close backdropclient** using the Task manager.
+
 ## ⚠️ Disclaimer
 This project is intended for **educational and research purposes only**. The use of this software in environments where monitoring is required or enforced may violate institutional policies. The author is not responsible for any misuse of this tool.
 
