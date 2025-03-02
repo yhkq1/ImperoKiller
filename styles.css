@@ -73,7 +73,7 @@ p{
   text-align: center;
 }
 
-#phome{
+.phome{
     word-wrap: break-word;
 }
 
@@ -159,8 +159,9 @@ background: linear-gradient(to right, #ff7e5f, #feb47b, #ff9a8b, #f7a8b8, #d1c4e
 .nav-header:hover{
     box-shadow: 0 0 20px  grey;
 }
-
+/*
 img{
 width: 40vw;
 height:40vh;
 }
+*/
