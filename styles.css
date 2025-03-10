@@ -12,6 +12,9 @@ background-color: black !important;
     .phome{
         display: none !important;
     }
+.container-gradient{
+background-color: black;
+}
 }
 
 html{
