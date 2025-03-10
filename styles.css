@@ -1,61 +1,29 @@
-:root{
-
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
-@keyframes gradientAnimation { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
-
-@media (max-width: 768px) {
-#container-1-5 {
-background: none !important;
-background-color: black !important;
-} 
-    .phome{
-        display: none !important;
-    }
-#container-1{
-background-color: black !important;
-}
-}
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     font-family: sans-serif;
 }
 
-#footer{
+#footer {
     color: white;
     font-size: 16px;
 }
 
-footer{
+footer {
     background-color: black;
-    padding: calc(3.25 * 1em)}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: calc(3 * 1em);
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    height: 50px;
+    padding: calc(3.25 * 1em);
 }
 
-#logo{
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    max-width: 150px;
-    object-fit: contain;
-}
-
-h2{
+h2 {
     font-family: sans-serif;
     font-size: 3.052rem;
     letter-spacing: 2px;
@@ -63,26 +31,22 @@ h2{
     margin-top: 150px;
 }
 
-p{
+p {
     font-family: sans-serif;
     font-size: 1.563rem;
     letter-spacing: 1px;
 }
-.subtitle{
+
+.subtitle {
     color: cornsilk;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 2;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+    text-align: center;
 }
 
-.phome{
-    word-wrap: break-word;
-}
-
-button{
+button {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /*Color, border, background-color*/
     margin: 20px;
     padding: 10px;
     width: 150px;
@@ -93,38 +57,33 @@ button{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-.button-black{
-    color: white;
-    border: 1px solid #30363d;
-    background-color: black;
-}
-
-.button-white{
+.button-white {
     color: black;
     border: 1px solid #ffffff;
     background-color: white;
 }
 
-button:hover{
-    box-shadow: 0 0 60px  grey;
+button:hover {
+    box-shadow: 0 0 60px grey;
 }
 
-button>i{
+button > i {
     margin: 10px;
 }
 
-a{
+a {
     background-color: transparent;
     color: white;
     text-decoration: none;
     margin: 0 50px;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
-    box-shadow: 0 0 1px  grey;
+    box-shadow: 0 0 1px grey;
 }
 
-.container{
+.container {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -133,38 +92,24 @@ a:hover{
     gap: 10px;
 }
 
-.container-gradient{
+.container-gradient {
     height: 100vh;
-    background: linear-gradient(to right, #ff7e5f, #feb47b, #ff9a8b, #f7a8b8, #d1c4e9, #a8c0ff);
-    background-size: 300% 300%;
-    animation: gradientAnimation 20s ease-in-out infinite;
-} 
-
-#container-1-5{
-height: 100vh;
-background: linear-gradient(to right, #ff7e5f, #feb47b, #ff9a8b, #f7a8b8, #d1c4e9, #a8c0ff);
-    background-size: 300% 300%;
-    animation: gradientAnimation 20s ease-in-out infinite; 
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #ff9a8b, #f7a8b8, #d1c4e9, #a8c0ff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    position: relative;
+    overflow: hidden;
 }
 
-#container-2{
+#container-2 {
     height: 80%;
     width: 80%;
     background-color: black;
     border-radius: 50px;
 }
 
-.nav-header{
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
+@media (max-width: 768px) {
+    .container-gradient {
+        background: black !important;
+    }
 }
-.nav-header:hover{
-    box-shadow: 0 0 20px  grey;
-}
-/*
-img{
-width: 40vw;
-height:40vh;
-}
-*/
